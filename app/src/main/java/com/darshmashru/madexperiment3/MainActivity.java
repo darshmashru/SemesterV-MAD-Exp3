@@ -43,24 +43,24 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 1:
                         image.setImageResource(R.drawable.shiba_inu);
-//                        Intent shiba_intent = new Intent(MainActivity.this, ShibaInuInformation.class);
-//                        startActivity(shiba_intent);
+                        Intent shiba_intent = new Intent(MainActivity.this, ShibaInuInformation.class);
+                        startActivity(shiba_intent);
                         break;
                     case 2:
                         image.setImageResource(R.drawable.siberian_husky);
-//                        Intent husky_intent = new Intent(MainActivity.this, SiberianHuskyInformation.class);
-//                        startActivity(husky_intent);
+                        Intent husky_intent = new Intent(MainActivity.this, SiberianHuskyInformation.class);
+                        startActivity(husky_intent);
                         break;
                     case 3:
                         image.setImageResource(R.drawable.welsh_corgi);
-//                        Intent corgi_intent = new Intent(MainActivity.this, WelshCorgiInformation.class);
-//                        startActivity(corgi_intent);
+                        Intent corgi_intent = new Intent(MainActivity.this, WelshCorgiInformation.class);
+                        startActivity(corgi_intent);
                         break;
                     case 4:
-//                        image.setImageResource(R.drawable.sphynx_cat);
-//                        Intent bingus_intent = new Intent(MainActivity.this, SphynxCatInformation.class);
+                        image.setImageResource(R.drawable.sphynx_cat);
+                        Intent bingus_intent = new Intent(MainActivity.this, SphynxCatInformation.class);
                         // USUAL WAY FOR STARTING AN ACTIVITY - startActivity(bingus_intent);
-//                        new Handler().postDelayed(() -> startActivity(bingus_intent), 1000); // ADDED TO INTRODUCE DELAY AFTER SELECTION
+                        new Handler().postDelayed(() -> startActivity(bingus_intent), 1000); // ADDED TO INTRODUCE DELAY AFTER SELECTION
                         break;
                 }
             }

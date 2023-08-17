@@ -7,4 +7,5 @@
     <string name="corgi_info">The Welsh Corgi is a small type of herding dog that originated in Wales. The name corgi is derived from the Welsh words cor and ci, meaning "dwarf" and "dog", respectively.</string>
     <string name="bingus_info">The Sphynx cat also known as the Canadian Sphynx, is a breed of cat known for its lack of fur. Hairlessness in cats is a naturally occurring genetic mutation, and the Sphynx was developed through selective breeding of these animals, starting in the 1960s.</string>
     <string name="dog_image">Dog Image</string>
+    <string name="back_button">Back</string>
 </resources>
